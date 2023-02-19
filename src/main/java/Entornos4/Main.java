@@ -44,8 +44,24 @@ public class Main {
         System.out.println("Su bono actual es  "+ bonoactual );
 
     }
-
+    
+    // ¡¡¡¡¡¡¡¡SOY UNA MODIFICACION!!!!!!!
+    public void hablar(){
+        System.out.println("Soy una modificación");
+    }
+    
     public static eCesta NuevoMetodo() {
+                   try {
+
+                    System.out.println(" Modificación 1");
+
+                     bag.Actualizarbono(-50);
+
+                 } catch (Exception e) {
+
+                           System.out.print("Fallo…….");
+
+                            }
         eCesta cesta;
         cesta = new eCesta("Apellidos del alumno",100, "dni del alumno", 10);
         return cesta;
